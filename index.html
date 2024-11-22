@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Highgate School System</title>
+    <link rel="stylesheet" href="styles.css" alt="#home">
+    <link rel="icon" href="e:\The Highgate School System\logo.PNG" type="image/x-icon">
+</head>
+
+<body>
+  
+    <!-- Header Section -->
+    <header>
+    <div class="header-content">
+        <img src="logo.PNG" alt="School Logo" class="logo">
+        <h1>The High Gate School System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="smooth-scroll">Home</a></li>
+                <li><a href="About Us.html" class="smooth-scroll">About Us</a></li>
+                <li><a href="Services.html" class="smooth-scroll">Services</a></li>
+                <li><a href="Contact Us.html" class="smooth-scroll">Contact Us</a></li>
+                <li><a href="staff.html" class="smooth-scroll">Our Team</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content fade-in-up">
+        <h2>Welcome to The Highgate School System</h2>
+        <p>The institude of quality education.</p>
+        <button onclick="showAlert()">Join Us Today</button>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The Highgate School System offers world-class education with a focus on holistic development, quality teaching, and a nurturing environment.</p>
+            <p>For more Information visit our page about us</p>
+        </div>
+    </section>
+
+    <section id="featured-video" style="background: #000; padding: 60px 20px; text-align: center; font-family: 'Arial', sans-serif; color: #fff; overflow: hidden; position: relative;">
+      <div class="fade-in" style="max-width: 800px; margin: 0 auto; opacity: 0; animation: fadeIn 2s ease-in-out forwards;">
+        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 20px;">Discover Highgate in Action!</h2>
+        <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px;">
+          Experience life at The Highgate School System through our featured video. From engaging classrooms to spirited extracurriculars, get a glimpse of what makes Highgate special.
+        </p>
+        <div style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);">
+          <video controls style="width: 100%; height: auto; border-radius: 12px;">
+            <source src="e:\The Highgate School System\The HighGate school system FSD.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <a href="/admissions" style="display: inline-block; margin-top: 30px; padding: 12px 25px; background-color: #4B0082; color: #fff; text-decoration: none; font-size: 1rem; font-weight: bold; border-radius: 8px; transition: background-color 0.3s ease;">
+          Learn More About Us!
+        </a>
+      </div>
+      <style>
+        /* Animation for Fade-In Effect */
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+    
+        /* Optional Glow Effect for Button */
+        a:hover {
+          background-color: #6a0dad;
+          box-shadow: 0 0 15px #4B0082;
+        }
+      </style>
+    </section>
+    
+
+
+    
+    
+      
+
+    <!-- Courses Section -->
+
+
+    <section style="position: relative; background: linear-gradient(to bottom, #1a1a1a, #333); padding: 60px 20px; font-family: 'Roboto', sans-serif; color: #fff; overflow: hidden;">
+        <!-- Animated Background Shapes -->
+        <div class="animated-shape circle" style="top: 10%; left: 15%;"></div>
+        <div class="animated-shape hexagon" style="top: 30%; left: 75%;"></div>
+        <div class="animated-shape wave" style="top: 55%; left: 10%;"></div>
+        <div class="animated-shape line" style="top: 80%; left: 50%;"></div>
+      
+        <!-- Content -->
+        <div style="max-width: 1200px; margin: auto; text-align: center; position: relative; z-index: 2;">
+          <h2 style="font-size: 36px; color: #FFD700; margin-bottom: 10px;">Our Courses</h2>
+          <p style="font-size: 18px; color: #bbb;">Explore a variety of subjects designed to ignite your curiosity and foster innovation.</p>
+      
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px;">
+            <!-- Course Card 1 -->
+            <div class="course-card" style="background-color: #424242;"> <!-- Consistent Dark Gray -->
+              <h3 class="course-title">Science</h3>
+              <p class="course-description">Dive into physics, chemistry, and biology with hands-on experiments and engaging activities.</p>
+              <a href="/courses/science" class="course-link">Learn More</a>
+            </div>
+      
+            <!-- Course Card 2 -->
+            <div class="course-card" style="background-color: #424242;">
+              <h3 class="course-title">Mathematics</h3>
+              <p class="course-description">Explore algebra, geometry, calculus, and statistics with real-world applications.</p>
+              <a href="/courses/mathematics" class="course-link">Learn More</a>
+            </div>
+      
+            <!-- Course Card 3 -->
+            <div class="course-card" style="background-color: #424242;">
+              <h3 class="course-title">Arts & Humanities</h3>
+              <p class="course-description">Study history, philosophy, literature, and art with thought-provoking content and discussions.</p>
+              <a href="/courses/arts-humanities" class="course-link">Learn More</a>
+            </div>
+      
+            <!-- Course Card 4 -->
+            <div class="course-card" style="background-color: #424242;">
+              <h3 class="course-title">Technology</h3>
+              <p class="course-description">Explore cutting-edge technologies like AI, machine learning, coding, and robotics.</p>
+              <a href="/courses/technology" class="course-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <style>
+        /* General Card Styling */
+        .course-card {
+          border-radius: 12px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+          width: 280px;
+          text-align: center;
+          padding: 25px 20px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          position: relative;
+          z-index: 2;
+          color: #fff; /* Light text for readability on dark background */
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+      
+        .course-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+        }
+      
+        .course-title {
+          font-size: 24px;
+          color: #FFD700; /* Gold for emphasis */
+          margin-bottom: 15px;
+        }
+      
+        .course-description {
+          font-size: 16px;
+          color: #bbb; /* Light gray for readability */
+          margin-bottom: 20px;
+        }
+      
+        .course-link {
+          font-size: 16px;
+          color: #424242;
+          background-color: #FFD700; /* Gold background for emphasis */
+          padding: 12px 20px;
+          border-radius: 8px;
+          text-decoration: none;
+          display: inline-block;
+          transition: background-color 0.3s, color 0.3s;
+        }
+      
+        .course-link:hover {
+          background-color: #FFC107; /* Lighter gold for hover effect */
+          color: #424242;
+        }
+      
+        /* Animated Shapes */
+        .animated-shape {
+          position: absolute;
+          opacity: 0.1;
+          animation: float 8s infinite ease-in-out;
+        }
+      
+        .animated-shape.circle {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          background: #FFD700; /* Gold */
+          animation-duration: 6s;
+        }
+      
+        .animated-shape.hexagon {
+          width: 100px;
+          height: 100px;
+          background: #FFD700; /* Gold */
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          animation-duration: 10s;
+        }
+      
+        .animated-shape.wave {
+          width: 120px;
+          height: 20px;
+          background: #FFD700; /* Gold */
+          border-radius: 10px;
+          animation-duration: 7s;
+        }
+      
+        .animated-shape.line {
+          width: 200px;
+          height: 5px;
+          background: #FFD700; /* Gold */
+          animation-duration: 9s;
+        }
+      
+        @keyframes float {
+          0% {
+            transform: translateY(0) translateX(0);
+          }
+          50% {
+            transform: translateY(-15px) translateX(10px);
+          }
+          100% {
+            transform: translateY(0) translateX(0);
+          }
+        }
+      
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .course-card {
+            width: 100%;
+          }
+      
+          .animated-shape {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      </style>
+      
+      
+      
+      
+      <section class="upcoming-events" style="background: linear-gradient(135deg, #695acd, #4c0082); padding: 60px 20px; color: #fff; text-align: center;">
+        <div class="container" style="max-width: 1200px; margin: auto;">
+          <h2 style="font-size: 36px; color: #FFD700; margin-bottom: 20px;">Upcoming Events & News</h2>
+          <p style="font-size: 18px; color: #ddd; margin-bottom: 40px;">Stay updated with the latest happenings at The Highgate School.</p>
+          
+          <div class="events-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+            <!-- Event 1 -->
+            <div class="event-card" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); transition: transform 0.3s ease;">
+              <h3 style="font-size: 24px; color: #FFD700; margin-bottom: 15px;">Open House - November 2024</h3>
+              <p style="font-size: 16px; color: #ccc; margin-bottom: 15px;">Join us for an exciting open house where you can learn more about our programs and meet our faculty.</p>
+              <span style="display: block; font-size: 14px; color: #aaa;">November 20, 2024</span>
+              <a href="/events/open-house" class="event-link" style="display: inline-block; margin-top: 15px; padding: 12px 20px; background-color: #FFD700; color: #2a2a2a; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">Learn More</a>
+            </div>
+      
+            <!-- Event 2 -->
+            <div class="event-card" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); transition: transform 0.3s ease;">
+              <h3 style="font-size: 24px; color: #FFD700; margin-bottom: 15px;">Winter Gala - December 2024</h3>
+              <p style="font-size: 16px; color: #ccc; margin-bottom: 15px;">Celebrate the season with us at the Winter Gala. A night of music, dance, and celebration!</p>
+              <span style="display: block; font-size: 14px; color: #aaa;">December 5, 2024</span>
+              <a href="/events/winter-gala" class="event-link" style="display: inline-block; margin-top: 15px; padding: 12px 20px; background-color: #FFD700; color: #2a2a2a; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">Learn More</a>
+            </div>
+      
+            <!-- Event 3 -->
+            <div class="event-card" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); transition: transform 0.3s ease;">
+              <h3 style="font-size: 24px; color: #FFD700; margin-bottom: 15px;">Lecture: The Future of AI</h3>
+              <p style="font-size: 16px; color: #ccc; margin-bottom: 15px;">Join us for an insightful lecture on the future of Artificial Intelligence and its impact on education.</p>
+              <span style="display: block; font-size: 14px; color: #aaa;">December 12, 2024</span>
+              <a href="/events/ai-lecture" class="event-link" style="display: inline-block; margin-top: 15px; padding: 12px 20px; background-color: #FFD700; color: #2a2a2a; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">Learn More</a>
+            </div>
+      
+            <!-- Event 4 -->
+            <div class="event-card" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); transition: transform 0.3s ease;">
+              <h3 style="font-size: 24px; color: #FFD700; margin-bottom: 15px;">Spring Break: School Closure</h3>
+              <p style="font-size: 16px; color: #ccc; margin-bottom: 15px;">The school will be closed for Spring Break. Enjoy your holiday and stay safe!</p>
+              <span style="display: block; font-size: 14px; color: #aaa;">March 29 - April 5, 2025</span>
+              <a href="/events/spring-break" class="event-link" style="display: inline-block; margin-top: 15px; padding: 12px 20px; background-color: #FFD700; color: #2a2a2a; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <style>
+        /* Hover effect for event cards */
+        .event-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        }
+      
+        .event-link:hover {
+          background-color: #FFC107; /* Slightly lighter gold on hover */
+        }
+      
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .events-list {
+            grid-template-columns: 1fr;
+          }
+      
+          .event-card {
+            margin: 10px 0;
+          }
+        }
+      </style>
+      
+      
+      
+      <section class="feedback-section" style="background: linear-gradient(135deg, #695acd, #4c0082); padding: 60px 20px; color: #fff; text-align: center;">
+        <div class="container" style="max-width: 1200px; margin: auto;">
+          <h2 style="font-size: 36px; color: #FFD700; margin-bottom: 20px;">We Value Your Feedback</h2>
+          <p style="font-size: 18px; color: #ddd; margin-bottom: 40px;">Your opinion matters to us! Let us know how we can improve our services.</p>
+      
+          <div class="feedback-form" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 8px; padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); max-width: 800px; margin: auto;">
+            
+            <!-- Rating -->
+            <div class="rating" style="margin-bottom: 20px;">
+              <h3 style="font-size: 24px; color: #FFD700; margin-bottom: 10px;">Rate Us</h3>
+              <div class="stars" style="font-size: 30px; color: #ddd; display: flex; justify-content: center; gap: 10px;">
+                <span class="star" data-value="1">⭐</span>
+                <span class="star" data-value="2">⭐</span>
+                <span class="star" data-value="3">⭐</span>
+                <span class="star" data-value="4">⭐</span>
+                <span class="star" data-value="5">⭐</span>
+              </div>
+            </div>
+      
+            <!-- Feedback Text -->
+            <textarea id="feedback-text" placeholder="Write your feedback..." rows="4" style="width: 100%; padding: 15px; border-radius: 8px; border: none; font-size: 16px; color: #333; margin-bottom: 20px;"></textarea>
+      
+            <!-- Submit Button -->
+            <button type="submit" onclick="sendFeedback()" style="background-color: #FFD700; color: #2a2a2a; padding: 12px 20px; border-radius: 6px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;">
+              Submit Feedback
+            </button>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Include the EmailJS script -->
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      
+      <script>
+        // Initialize EmailJS
+        emailjs.init("YOUR_USER_ID"); // Replace with your user ID from EmailJS
+      
+        // Function to send feedback via EmailJS
+        function sendFeedback() {
+          const feedback = document.getElementById('feedback-text').value;
+          const rating = document.querySelector('.star.filled') ? document.querySelector('.star.filled').getAttribute('data-value') : "No rating";
+      
+          if (feedback) {
+            const params = {
+              rating: rating,
+              feedback: feedback,
+              to_email: "developerweb839@gmail.com", // Your email address
+            };
+      
+            emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", params)
+              .then(function(response) {
+                alert("Feedback submitted successfully!");
+              }, function(error) {
+                alert("Failed to send feedback, please try again later.");
+              });
+          } else {
+            alert("Please provide your feedback before submitting.");
+          }
+        }
+      </script>
+      
+      <style>
+        /* Basic star styling */
+        .star {
+          cursor: pointer;
+          font-size: 30px;
+          transition: transform 0.3s ease-in-out, color 0.3s ease;
+        }
+      
+        /* Hover effect for individual stars */
+        .star.hovered {
+          color: #FFC107;
+          transform: scale(1.2);
+        }
+      
+        /* Fill effect for the stars */
+        .star.filled {
+          color: #FFD700;
+        }
+      
+        /* Hover effect for submit button */
+        button:hover {
+          background-color: #FFC107;
+        }
+      
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .feedback-form {
+            padding: 20px;
+          }
+          
+          .stars {
+            font-size: 25px; /* Adjust size for smaller screens */
+          }
+        }
+      </style>
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <div class="container">
+            <h2>Discus any Problem you have</h2>
+            <form id="contact-form" class="fade-in-up">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="background: linear-gradient(to right, #4B0082, #6A5ACD); color: white; padding: 40px 20px; position: relative; overflow: hidden; font-family: Arial, sans-serif;">
+        <!-- Background Graphics -->
+        <div style="position: absolute; top: -50px; left: -50px; width: 150px; height: 150px; background: rgba(255, 255, 255, 0.1); border-radius: 50%; animation: float 6s infinite;"></div>
+        <div style="position: absolute; bottom: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255, 255, 255, 0.1); border-radius: 50%; animation: float 8s infinite reverse;"></div>
+        <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; z-index: 2; position: relative;">
+          <!-- About Section -->
+          <div style="flex: 1; min-width: 250px; padding: 20px; animation: fadeIn 2s;">
+            <h3 style="color: #FFD700; font-size: 20px;">About The Highgate School System</h3>
+            <p>
+              Empowering students with quality education and fostering their holistic development in a dynamic learning environment.
+            </p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div style="flex: 1; min-width: 250px; padding: 20px; animation: fadeIn 2.5s;">
+            <h3 style="color: #FFD700; font-size: 20px;">Quick Links</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li><a href="/about" class="footer-link">About Us</a></li>
+              <li><a href="/admissions" class="footer-link">Admissions</a></li>
+              <li><a href="/academics" class="footer-link">Academics</a></li>
+              <li><a href="/contact" class="footer-link">Contact</a></li>
+              <li><a href="/careers" class="footer-link">Careers</a></li>
+            </ul>
+          </div>
+      
+          <!-- Contact Information -->
+          <div style="flex: 1; min-width: 250px; padding: 20px; animation: fadeIn 3s;">
+            <h3 style="color: #FFD700; font-size: 20px;"> Contact Us</h3>
+            <p>
+              <strong>Address:</strong> 123 Highgate Avenue, City, Country <br>
+              <strong>Email:</strong> <a href="mailto:info@highgateschool.com" style="color: white; text-decoration: none;">info@highgateschool.com</a><br>
+              <strong>Phone:</strong> +123 456 7890
+            </p>
+          </div>
+        </div>
+      
+        <!-- Bottom Section -->
+        <div style="text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.2); padding: 20px 0; margin-top: 20px; animation: fadeIn 4s;">
+          <p>
+            &copy; 2024 The Highgate School System. All Rights Reserved.
+            <a href="/privacy-policy" class="footer-link">Privacy Policy</a> |
+            <a href="/terms-of-service" class="footer-link">Terms of Service</a>
+          </p>
+          <div style="margin-top: 10px;">
+            <a href="https://facebook.com" target="_blank" class="social-icon">&#xf09a;</a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">&#xf099;</a>
+            <a href="https://instagram.com" target="_blank" class="social-icon">&#xf16d;</a>
+          </div>
+        </div>
+      </footer>
+      
+      <style>
+        /* Animations */
+        @keyframes float {
+          0%, 100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-20px);
+          }
+        }
+      
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      
+        /* Link Styles */
+        .footer-link {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+          display: inline-block;
+          margin-bottom: 10px;
+          transition: color 0.3s, transform 0.3s;
+        }
+      
+        .footer-link:hover {
+          color: #FFD700;
+          transform: translateX(5px);
+        }
+      
+        /* Social Media Icon Styles */
+        .social-icon {
+          color: white;
+          font-size: 20px;
+          margin: 0 10px;
+          text-decoration: none;
+          transition: transform 0.3s, color 0.3s;
+        }
+      
+        .social-icon:hover {
+          color: #FFD700;
+          transform: scale(1.2);
+        }
+      
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          footer div {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          .footer-link {
+            display: block;
+          }
+        }
+      </style>
+      
+      
+      
+      
+
+                  <script src="script.js"></script>
+</body>
+
+</html>
